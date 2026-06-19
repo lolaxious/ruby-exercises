@@ -40,7 +40,7 @@ def remove_first_three_elements(array)
   array
 end
 
-def array_concatenation(array1, array2)
+def combine_arrays(array1, array2)
   array1 + array2
   # return an array adding the original and additional array together
 end
@@ -66,11 +66,10 @@ def array_length(array)
 end
 
 def include?(array, value)
-  array.include?(value)
+  array
   # return true if the array includes the value
 end
 
 def join(array, separator)
-  array.join(separator)
   # return the result of joining the array with the separator
 end

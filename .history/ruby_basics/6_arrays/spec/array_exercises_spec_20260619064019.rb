@@ -121,40 +121,40 @@ RSpec.describe 'Array Exercises' do
       expect(reverse([0, 1, 1, 2, 3, 5])).to eq([5, 3, 2, 1, 1, 0])
     end
 
-    it 'returns an array containing the element when there is only one' do
+    xit 'returns an array containing the element when there is only one' do
       expect(reverse(['foo'])).to eq(['foo'])
     end
   end
 
   describe 'array length exercise' do
 
-    it 'returns the length of the array' do
+    xit 'returns the length of the array' do
       expect(array_length([0, 1, 1, 2, 3, 5])).to eq(6)
     end
 
-    it 'returns zero when the array is empty' do
+    xit 'returns zero when the array is empty' do
       expect(array_length([])).to eq(0)
     end
   end
 
   describe 'include exercise' do
 
-    it 'returns true when the array contains the specified value' do
+    xit 'returns true when the array contains the specified value' do
       expect(include?([0, 1, 1, 2, 3, 5], 3)).to be true
     end
 
-    it 'returns false when the array does not contain the specified value' do
+    xit 'returns false when the array does not contain the specified value' do
       expect(include?([0, 1, 1, 2, 3, 5], 8)).to be false
     end
   end
 
   describe 'join exercise' do
 
-    it 'returns a string joining an array of numbers with " + "' do
+    xit 'returns a string joining an array of numbers with " + "' do
       expect(join([0, 1, 1, 2, 3, 5], ' + ')).to eq('0 + 1 + 1 + 2 + 3 + 5')
     end
 
-    it 'returns a string joining an array of strings with " "' do
+    xit 'returns a string joining an array of strings with " "' do
       expect(join(['foo', 'bar', 'baz'], ' ')).to eq('foo bar baz')
     end
   end

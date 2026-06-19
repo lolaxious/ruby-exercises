@@ -88,73 +88,73 @@ RSpec.describe 'Array Exercises' do
       expect(array_concatenation([1, 3, 5], [2, 4, 6])).to eq([1, 3, 5, 2, 4, 6])
     end
 
-    it 'returns an array adding arrays of strings and numbers together' do
+    xit 'returns an array adding arrays of strings and numbers together' do
       expect(array_concatenation(['a', 'b', 'c'], [1, 2, 3])).to eq(['a', 'b', 'c', 1, 2, 3])
     end
   end
 
   describe 'array difference exercise' do
 
-    it 'returns an array subtracting two arrays of numbers' do
+    xit 'returns an array subtracting two arrays of numbers' do
       expect(array_difference([0, 1, 1, 2, 3, 5], [0, 1, 2])).to eq([3, 5])
     end
 
-    it 'returns an array subtracting two arrays of strings' do
+    xit 'returns an array subtracting two arrays of strings' do
       expect(array_difference(['foo', 'bar', 'baz'], ['bar','hello'])).to eq(['foo', 'baz'])
     end
   end
 
   describe 'empty array exercise' do
 
-    it 'returns true when the array is empty' do
+    xit 'returns true when the array is empty' do
       expect(empty_array?([])).to be true
     end
 
-    it 'returns false when the array is not empty' do
+    xit 'returns false when the array is not empty' do
       expect(empty_array?([1, 2, 3])).to be false
     end
   end
 
   describe 'reverse exercise' do
 
-    it 'returns an array containing the elements in reverse order' do
+    xit 'returns an array containing the elements in reverse order' do
       expect(reverse([0, 1, 1, 2, 3, 5])).to eq([5, 3, 2, 1, 1, 0])
     end
 
-    it 'returns an array containing the element when there is only one' do
+    xit 'returns an array containing the element when there is only one' do
       expect(reverse(['foo'])).to eq(['foo'])
     end
   end
 
   describe 'array length exercise' do
 
-    it 'returns the length of the array' do
+    xit 'returns the length of the array' do
       expect(array_length([0, 1, 1, 2, 3, 5])).to eq(6)
     end
 
-    it 'returns zero when the array is empty' do
+    xit 'returns zero when the array is empty' do
       expect(array_length([])).to eq(0)
     end
   end
 
   describe 'include exercise' do
 
-    it 'returns true when the array contains the specified value' do
+    xit 'returns true when the array contains the specified value' do
       expect(include?([0, 1, 1, 2, 3, 5], 3)).to be true
     end
 
-    it 'returns false when the array does not contain the specified value' do
+    xit 'returns false when the array does not contain the specified value' do
       expect(include?([0, 1, 1, 2, 3, 5], 8)).to be false
     end
   end
 
   describe 'join exercise' do
 
-    it 'returns a string joining an array of numbers with " + "' do
+    xit 'returns a string joining an array of numbers with " + "' do
       expect(join([0, 1, 1, 2, 3, 5], ' + ')).to eq('0 + 1 + 1 + 2 + 3 + 5')
     end
 
-    it 'returns a string joining an array of strings with " "' do
+    xit 'returns a string joining an array of strings with " "' do
       expect(join(['foo', 'bar', 'baz'], ' ')).to eq('foo bar baz')
     end
   end

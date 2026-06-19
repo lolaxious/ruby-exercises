@@ -40,7 +40,7 @@ def remove_first_three_elements(array)
   array
 end
 
-def array_concatenation(array1, array2)
+def array(array1, array2)
   array1 + array2
   # return an array adding the original and additional array together
 end
